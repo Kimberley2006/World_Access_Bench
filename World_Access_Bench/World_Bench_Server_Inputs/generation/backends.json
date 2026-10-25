@@ -1,0 +1,38 @@
+{
+  "version": "worldbench-server-inputs-20261025-fixed",
+  "backends": {
+    "h3_ref2va": {
+      "method_name": "MiniMax-H3-Base-Ref2VA",
+      "project_path": null,
+      "checkpoint_path": null,
+      "checkpoint_sha256": null,
+      "commit_id": null,
+      "launch_argv": null,
+      "status": "requires_server_local_binding"
+    },
+    "wan_flowedit": {
+      "method_name": "Wan2.1-T2V-1.3B + FlowEdit",
+      "project_path": null,
+      "checkpoint_path": null,
+      "checkpoint_sha256": null,
+      "commit_id": null,
+      "launch_argv": null,
+      "status": "requires_server_local_binding"
+    },
+    "wan_flowalign": {
+      "method_name": "Wan2.1-T2V-1.3B + FlowAlign",
+      "project_path": null,
+      "checkpoint_path": null,
+      "checkpoint_sha256": null,
+      "commit_id": null,
+      "launch_argv": null,
+      "status": "requires_server_local_binding"
+    }
+  },
+  "seeds": [
+    4101,
+    4102
+  ],
+  "prompt_policy": "translate_expand_task_without_semantic_change; no output labels or future ground-truth intervals",
+  "video_policy": "retain_entire_source_time_range; record input/output PTS and preprocessing; do not blindly export at fixed16fps"
+}

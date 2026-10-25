@@ -1,0 +1,47 @@
+{
+  "schema_version": "worldbench-server-inputs-20261025-fixed",
+  "condition_states": [
+    "pass",
+    "fail",
+    "uncertain",
+    "not_applicable"
+  ],
+  "execution_states": [
+    "ok",
+    "error"
+  ],
+  "annotation_states": [
+    "unannotated",
+    "ai_a",
+    "ai_b",
+    "ai_reconciled"
+  ],
+  "uncertainty_reasons": [
+    "insufficient_video_evidence",
+    "low_model_confidence",
+    "instruction_ambiguity",
+    "conflicting_evidence"
+  ],
+  "core_axes": [
+    "instruction_compliance",
+    "content_preservation",
+    "conditional_physical_consistency"
+  ],
+  "auxiliary_axes": [
+    "temporal_continuity"
+  ],
+  "score_scale": null,
+  "probability_is_not_completion_score": true,
+  "strict_policy": "Any applicable required fail => fail; otherwise any required unresolved => uncertain; all applicable required pass => pass; zero applicable required => not_applicable; execution error is separate.",
+  "evidence_fields": [
+    "object_ids",
+    "event_id",
+    "interval_seconds",
+    "observation",
+    "measurement",
+    "rule_id",
+    "evidence_id"
+  ],
+  "result_placeholder_is_training_sample": false,
+  "reference_tier": "AI_silver_not_human_gold"
+}

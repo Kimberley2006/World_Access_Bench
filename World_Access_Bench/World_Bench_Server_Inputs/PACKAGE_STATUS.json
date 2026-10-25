@@ -1,0 +1,32 @@
+{
+  "version": "worldbench-server-inputs-20261025-fixed",
+  "purpose": "all_in_one_server_input_bundle",
+  "sources": 97,
+  "tasks": 277,
+  "source_groups": 76,
+  "planned_natural_outputs": 1662,
+  "actual_natural_outputs": 0,
+  "actual_physics_labels": 0,
+  "source_video_count": 97,
+  "diagnostic_transformed_video_count": 194,
+  "evidence_image_count": 157,
+  "diagnostic_pair_count": 831,
+  "source_counts": {
+    "train": 48,
+    "test": 40,
+    "validation": 9
+  },
+  "task_counts": {
+    "train": 135,
+    "test": 119,
+    "validation": 23
+  },
+  "job_counts": {
+    "train": 810,
+    "test": 714,
+    "validation": 138
+  },
+  "model_weights_included": false,
+  "server_launch_commands_bound": false,
+  "final_training_dataset_ready": false
+}

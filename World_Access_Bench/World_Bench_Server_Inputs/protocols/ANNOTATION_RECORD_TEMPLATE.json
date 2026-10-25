@@ -1,0 +1,32 @@
+{
+  "template_only": true,
+  "annotation_id": null,
+  "result_id": null,
+  "task_id": null,
+  "spec_revision": null,
+  "video_sha256": null,
+  "annotator_model": null,
+  "annotator_model_revision": null,
+  "prompt_version": null,
+  "sampling_log": null,
+  "human_gold": false,
+  "reference_tier": "AI_silver",
+  "condition_annotations": [
+    {
+      "condition_id": null,
+      "object_ids": [],
+      "applicable": null,
+      "evidence_sufficient": null,
+      "condition_status": null,
+      "label_status": "not_assessed",
+      "evidence_intervals_seconds": [],
+      "observation": null,
+      "reason": null,
+      "event_exists": null,
+      "event_interval_seconds": null,
+      "measurement": null,
+      "classification_supervision_mask": false,
+      "temporal_regression_mask": false
+    }
+  ]
+}

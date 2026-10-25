@@ -1,0 +1,21 @@
+{
+  "template_only": true,
+  "result_id": null,
+  "task_id": null,
+  "spec_revision": null,
+  "method_id": null,
+  "seed": null,
+  "source_video_sha256": null,
+  "video_path": null,
+  "video_sha256": null,
+  "width": null,
+  "height": null,
+  "frame_count": null,
+  "duration_seconds": null,
+  "pts_sidecar_path": null,
+  "checkpoint_sha256": null,
+  "code_commit": null,
+  "prompt_record_path": null,
+  "execution_status": null,
+  "error_reason": null
+}

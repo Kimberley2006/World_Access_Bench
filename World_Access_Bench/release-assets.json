@@ -1,0 +1,16 @@
+{
+  "repository": "Kimberley2006/World_Access_Bench",
+  "tag": "inputs-2026-10-25",
+  "assets": [
+    {
+      "name": "World_Bench_Server_Inputs_Main.zip",
+      "size_bytes": 294560038,
+      "sha256": "64a8bdb9859624fa304f97370c18203973f2ba02d82fa5705d86f38c6500ffc5"
+    },
+    {
+      "name": "World_Bench_Server_Inputs_Diagnostic_Videos.zip",
+      "size_bytes": 332808599,
+      "sha256": "995533b751ed877853fc1b305c4e7c8a3f248a08f5f352ec5796f5388a50912f"
+    }
+  ]
+}

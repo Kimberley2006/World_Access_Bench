@@ -1,0 +1,11 @@
+{
+  "prior_package": "World_Bench_AI97_Server_Package.zip",
+  "change": "Implement latest agreed plan: six natural outputs = three editing methods x two seeds; prior controls become diagnostics; two incomplete tasks removed, their other well-defined source tasks remain.",
+  "task_text_changed_in_packaging": false,
+  "source_videos_removed_this_packaging": [],
+  "excluded_task_ids": [
+    "wb-3ec89d156fa17a38-base",
+    "wb-4d714ed861563c60-base"
+  ],
+  "historical_review_files_are_not_training_labels": true
+}
